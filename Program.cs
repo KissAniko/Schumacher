@@ -81,7 +81,7 @@ namespace Schumacher
             // Statisztika kiírása
             foreach (var hibaStat in hibakStatisztika)
             {
-                Console.WriteLine($" \t {Convert.ToDateTime(hibaStat.Hiba)}: {hibaStat.Előfordulások}");
+                Console.WriteLine($" \t {hibaStat.Hiba}: {hibaStat.Előfordulások}");
             }
         } 
     }
